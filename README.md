@@ -6,7 +6,7 @@ A project trying to recreate the basics of the twitter app. This Part is about c
 
 ## Tech Stack
 
-**Server**: Node.js, Express
+**Server**: Node.js, Express, Prisma
 
 ## Project parts
 
