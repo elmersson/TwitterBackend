@@ -1,38 +1,15 @@
 import express from "express";
 
+import userRoutes from "./routes/userRoutes";
+import tweetRoutes from "./routes/tweetRoutes";
+
 const app = express();
 app.use(express.json());
+app.use('/user' , userRoutes);
+app.use('/tweet' , tweetRoutes);
 
 app.get('/', (req, res) => {
     res.send('Hello world');
-});
-
-// create user
-app.post('/user', (req, res) => {
-    res.status(501).json({error: "Not implemented"})
-});
-
-// list users
-app.get('/user', (req, res) => {
-    res.status(501).json({error: "Not implemented"})
-});
-
-// get one user
-app.get('/user/:id', (req, res) => {
-    const {id} = req.params;
-    res.status(501).json({error: `Not implemented: ${id}`})
-});
-
-// update user
-app.put('/user/:id', (req, res) => {
-    const {id} = req.params;
-    res.status(501).json({error: `Not implemented: ${id}`})
-});
-
-// delete user
-app.delete('/user/:id', (req, res) => {
-    const {id} = req.params;
-    res.status(501).json({error: `Not implemented: ${id}`})
 });
 
 app.listen(3000, () => {
