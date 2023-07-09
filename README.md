@@ -19,4 +19,4 @@ A project trying to recreate the basics of the twitter app. This Part is about c
 
 - Clone or download the repo
 - `npm i` to install dependencies
-- `npm start` to run teh development server
+- `npm run dev` to run the development server
