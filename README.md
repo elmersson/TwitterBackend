@@ -4,6 +4,12 @@
 
 A project trying to recreate the basics of the twitter app. This Part is about creating the fundamentals for the app in the frontend with mockdata.
 
+This includes:
+
+- Authentication with JWT auth Token
+- User information
+- Tweets connected to user
+
 ## Tech Stack
 
 **Server**: Node.js, Express, Prisma
