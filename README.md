@@ -12,7 +12,7 @@ This includes:
 
 ## Tech Stack
 
-**Server**: Node.js, Express, Prisma
+**Server**: Node.js, Express, Prisma, AWS (EC2 & RDS)
 
 ## Project parts
 
