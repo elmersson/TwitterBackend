@@ -11,9 +11,10 @@ This includes:
 - Tweets connected to user
 
 ## Future
+
 To implement all other features such as:
 
-- Edit post 
+- Edit post
 
 ## Tech Stack
 
