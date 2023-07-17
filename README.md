@@ -10,9 +10,15 @@ This includes:
 - User information
 - Tweets connected to user
 
+## Future
+
+To implement all other features such as:
+
+- Edit post
+
 ## Tech Stack
 
-**Server**: Node.js, Express, Prisma
+**Server**: Node.js, Express, Prisma, AWS (EC2 & RDS)
 
 ## Project parts
 
