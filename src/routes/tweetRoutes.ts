@@ -48,7 +48,6 @@ router.get('/', async (req, res) => {
 // get one Tweet
 router.get('/:id', async (req, res) => {
   const { id } = req.params;
-  console.log('Query tweet with id: ', id);
 
   const tweet = await prisma.tweet.findUnique({
     where: { id: Number(id) },
