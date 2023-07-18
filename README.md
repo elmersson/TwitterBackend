@@ -18,7 +18,7 @@ To implement all other features such as:
 
 ## Tech Stack
 
-**Server**: Node.js, Express, Prisma, AWS (EC2 & RDS)
+**Server**: Node.js, Express, Prisma, AWS (SES, EC2 & RDS)
 
 ## Project parts
 
