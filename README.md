@@ -24,6 +24,7 @@ To implement all other features such as:
 
 | Part | Topic    | Repository                                                    |
 | ---- | -------- | ------------------------------------------------------------- |
+| #0   | Project | [Twitter](https://github.com/elmersson/Twitter)         |
 | #1   | Frontend | [Twitter-UI](https://github.com/elmersson/Twitter-UI)         |
 | #2   | Backend  | [TwitterBackend](https://github.com/elmersson/TwitterBackend) |
 
